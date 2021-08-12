@@ -1,0 +1,306 @@
+.home__container__one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("/images/mobile/home/container-one-background.png"),
+    linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.598017) 56.35%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+.home__container__one h1 {
+  max-width: 293px;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 238px;
+  margin-bottom: 135px;
+}
+.home__container__one a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #070d10;
+  text-decoration: none;
+
+  padding: 15px 33px 13px 33px;
+  background: #ffd15b;
+  border-radius: 40px;
+  margin-bottom: 29px;
+}
+.home__container__two,
+.home__container__three,
+.home__container__five,
+.home__container__six,
+.home__container__seven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__container__two {
+  padding: 32px 29px 64px 29px;
+}
+.home__container__two h2 {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.home__services {
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__services img {
+  width: 100%;
+  margin-bottom: 19px;
+}
+.home__services h3 {
+  font-size: 20px;
+  line-height: 35px;
+  padding: 2px 7px 0 7px;
+  background: #ffd15b;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.home__services p {
+  max-width: 293px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.home__services a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+  color: #656667;
+  text-decoration: none;
+
+  border-radius: 40px;
+  border: 1px solid #656667;
+  padding: 7px 18px 6px 18px;
+}
+.home__container__two__button {
+  max-width: 246px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #070d10;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 40px;
+  background: #ffd15b;
+  padding: 8px 30px 6px 30px;
+  margin-top: 13px;
+}
+.home__container__three {
+  padding: 34px 31px 44px 31px;
+  background: #f5f5f5;
+}
+.home__container__three h2 {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 26px;
+}
+.home__container__three img {
+  width: 100%;
+  margin-bottom: 36px;
+}
+.home__container__three__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__container__three p {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.home__container__three span {
+  font-weight: 700;
+}
+.home__container__three__content a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #070d10;
+  text-decoration: none;
+
+  border-radius: 40px;
+  padding: 13px 22px 10px 22px;
+  background: #ffd15b;
+}
+/*Container four*/
+.home__container__five {
+  padding: 76px 42px 96px 42px;
+}
+.home__container__five h2 {
+  max-width: 293px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.home__container__five__group {
+  padding: 24px 45px 19px 45px;
+  background: #f5f5f5;
+  border-radius: 60px;
+  margin-bottom: 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.customer__text {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.home__container__five__group span {
+  width: 167px;
+  height: 4px;
+  background: #ffd15b;
+  margin-bottom: 15px;
+}
+.customer {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.home__container__six {
+  padding: 0 29px 72px 29px;
+}
+.home__container__six h2 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffd15b;
+  margin-bottom: 45px;
+}
+.home__container__six__blog__post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 57px;
+}
+.home__container__six__blog__post img {
+  width: 100%;
+  margin-bottom: 19px;
+}
+.home__container__six__blog__post h3 {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.home__container__six__blog__post p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.home__container__six__blog__post a {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-decoration: none;
+}
+.home__container__six__button {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #070d10;
+  text-decoration: none;
+
+  border-radius: 40px;
+  background: #ffd15b;
+  padding: 13px 63px 10px 63px;
+}
+.home__container__seven {
+  padding: 0 37px 0 37px;
+}
+.home__container__seven form {
+  width: 100%;
+  padding: 42px 32px 45px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 31px;
+  background: #e1e1e1;
+  margin-bottom: 69.58px;
+}
+.home__container__seven form h3 {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.home__container__seven form p {
+  max-width: 241px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.home__container__seven form label {
+  width: 100%;
+  height: 41px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.home__container__seven form input {
+  width: 100%;
+  height: 41px;
+  border: none;
+  padding-left: 40px;
+}
+#form__button {
+  max-width: 184px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  padding: 0 41px 0 41px;
+
+  border-radius: 40px;
+  background: #ffd15b;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.top__button {
+  width: 45.83px;
+  height: 45.83px;
+  margin: auto;
+  border: 2px solid #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-behavior: smooth;
+  border-radius: 50%;
+}
+.top__button img {
+  width: 18.33px;
+}
