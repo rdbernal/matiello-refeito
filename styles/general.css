@@ -12,3 +12,52 @@ body {
 .body-hidden {
   overflow: hidden;
 }
+footer {
+  padding: 39px 54px 27px 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000000;
+}
+.social__media p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13px;
+  text-align: center;
+  color: #ffd15b;
+  margin-bottom: 11px;
+}
+.social__media__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.social__media__icons a {
+  margin: 0 8.25px 0 8.25px;
+}
+.social__media__icons img {
+  width: 42px;
+}
+.footer__address address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.footer__address address span {
+  font-weight: 700;
+  color: #ffd15b;
+}
+footer small {
+  margin-top: 13px;
+  color: #ffffff;
+  text-align: center;
+}
+footer small a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
