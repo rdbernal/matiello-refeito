@@ -1,0 +1,82 @@
+.servicos__container__one {
+  padding: 239px 0 45px 0;
+  background: url("/images/mobile/sobre/container-one-bg.png"),
+    linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.598017) 78.65%,
+      rgba(0, 0, 0, 0.4) 100%
+    );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicos__container__one h1 {
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.servicos__container__one span {
+  width: 25px;
+  height: 6px;
+  border-radius: 50px;
+  background: #ffd15b;
+}
+.servicos__container__two {
+  padding: 41px 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicos__container__two article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.servicos__container__two article img {
+  width: 100%;
+  margin-bottom: 39px;
+}
+.servicos__container__two article h2 {
+  font-size: 20px;
+  line-height: 25px;
+  padding: 4px 7px 0 7px;
+  background: #ffd15b;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.servicos__container__two article span {
+  font-size: 16px;
+}
+.servicos__container__two article p {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+#financiamento__veiculos {
+  margin-bottom: 0;
+}
+#carros__motos__caminhoes {
+  margin-top: 5px;
+  margin-bottom: 21px;
+  font-weight: 700;
+}
+.servicos__container__two a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #070d10;
+  padding: 15px 32px 13px 32px;
+  background: #ffd15b;
+  border-radius: 40px;
+  margin-bottom: 17.58px;
+}
