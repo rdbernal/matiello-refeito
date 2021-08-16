@@ -1,0 +1,111 @@
+.sobre__container__one {
+  padding: 269px 0 81px 0;
+  background: url("/images/mobile/sobre/container-one-bg.png"),
+    linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.598017) 78.65%,
+      rgba(0, 0, 0, 0.4) 100%
+    );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre__container__one h1 {
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.sobre__container__one span {
+  width: 25px;
+  height: 6px;
+  border-radius: 50px;
+  background: #ffd15b;
+}
+.sobre__container__two {
+  padding: 41px 42px 28px 42px;
+}
+.container__two__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__two__content h2 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.container__two__content p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+.container__two__content p:last-child {
+  margin-bottom: 30px;
+}
+.sobre__container__two img {
+  width: 100%;
+}
+.sobre__container__three {
+  margin: 0 42px;
+  padding: 39.6px 34px 40px 34px;
+  background: #ffd15b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre__container__three img {
+  margin-bottom: 30.6px;
+}
+.sobre__container__three h2 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.sobre__container__three p {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sobre__container__three p:last-child {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.sobre__container__four {
+  padding: 65px 42px 0 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre__container__four h2 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 26.5px;
+}
+.sobre__container__four p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 37px;
+}
+.sobre__container__four p:last-child {
+  margin-bottom: 58.58px;
+}
+.sobre__container__four ul {
+  margin-bottom: 28px;
+  list-style-position: inside;
+  list-style-image: url("/images/mobile/sobre/ul-li-mark.png");
+}
+.sobre__container__four ul p {
+  margin-bottom: 25px;
+}
+.sobre__container__four ul li {
+  font-size: 14px;
+  line-height: 22px;
+  line-height: 30px;
+}
