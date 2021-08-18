@@ -1,0 +1,74 @@
+.contato__container__one {
+  padding: 269px 0 83px 0;
+  background: url("/images/mobile/contato/container-one-bg.png"),
+    linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.598017) 78.65%,
+      rgba(0, 0, 0, 0.4) 100%
+    );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contato__container__one h1 {
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.contato__container__one span {
+  width: 25px;
+  height: 6px;
+  border-radius: 50px;
+  background: #ffd15b;
+}
+.contato__container__two {
+  padding: 41px 46px 59px 46px;
+}
+.contato__container__two__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 41px;
+}
+.contato__container__two__group:last-child {
+  margin-bottom: 0;
+}
+.contato__container__two__group h2 {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.street__address {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+.cep__address {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 13px;
+}
+.phone__address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 13px;
+}
+.contato__container__two__group iframe {
+  width: 100%;
+}
