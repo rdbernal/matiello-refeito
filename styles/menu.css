@@ -8,7 +8,6 @@ header img {
   top: 43px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
 }
 .burger__menu {
   width: 28px;
@@ -41,11 +40,9 @@ header img {
 }
 .line__one.active {
   transform: rotate(45deg) translate(6.7175px, 6.7175px);
-  background: #000000;
 }
 .line__two.active {
   transform: rotate(-45deg);
-  background: #000000;
 }
 .line__three.active {
   opacity: 0;
@@ -59,7 +56,7 @@ header nav {
   flex-direction: column;
   justify-content: center;
   padding-top: 200px;
-  background: #b9b3b3;
+  background: #000000;
 
   transform: translateX(-100vw);
   transition: 0.4s;
@@ -85,8 +82,7 @@ header nav a {
   font-size: 16px;
   font-weight: 800;
   line-height: 18px;
-  /* color: #ffffff; */
-  color: #000000;
+  color: #ffffff;
 }
 @keyframes slide__menu__items {
   from {
