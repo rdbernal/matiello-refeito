@@ -62,3 +62,13 @@
   margin-top: 27px;
   cursor: pointer;
 }
+@media screen and (min-width: 767px) {
+  .simule__container__one {
+    padding-top: 380px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .simule__container__one {
+    padding-top: 310px;
+  }
+}

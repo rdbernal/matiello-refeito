@@ -72,3 +72,32 @@
 .contato__container__two__group iframe {
   width: 100%;
 }
+@media screen and (min-width: 767px) {
+  .contato__container__one {
+    padding: 408px 0 128px 0;
+    background: url("/images/desktop/contato/container-one-bg.png"),
+      linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.598017) 56.35%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+  .contato__container__one h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .contato__container__one span {
+    width: 58px;
+    height: 8px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .contato__container__one {
+    padding-top: 338px;
+  }
+}

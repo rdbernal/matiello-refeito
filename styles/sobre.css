@@ -109,3 +109,32 @@
   line-height: 22px;
   line-height: 30px;
 }
+@media screen and (min-width: 767px) {
+  .sobre__container__one {
+    padding: 408px 0 128px 0;
+    background: url("/images/desktop/sobre/container-one-bg.png"),
+      linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.598017) 56.35%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+  .sobre__container__one h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .sobre__container__one span {
+    width: 58px;
+    height: 8px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .sobre__container__one {
+    padding-top: 338px;
+  }
+}
