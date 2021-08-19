@@ -79,3 +79,18 @@ footer small a {
   color: #ffffff;
   font-weight: 700;
 }
+@media screen and (min-width: 834px) {
+  footer {
+    padding: 57px 0 45px 0;
+  }
+  .footer__container {
+    width: 80%;
+    max-width: 890px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .footer__address address {
+    text-align: left;
+  }
+}
