@@ -8,8 +8,8 @@ const burger__menu__lines = document.querySelectorAll(".js-menu__line");
 const nav__menu = document.querySelector(".js-nav__menu");
 //Menu items selection
 const nav__menu__items = document.querySelectorAll(".js-menu__item");
-
-console.log(nav__menu__items);
+//Menu links selection
+const nav__menu__links = document.querySelectorAll(".js-menu__links");
 
 function showMenu() {
   //Fixed body when menu is open
@@ -30,5 +30,18 @@ function showMenu() {
   });
 }
 
+function showIndicator() {
+  this.nextElementSibling.classList.add("active");
+}
+
+function hideIndicator() {
+  this.nextElementSibling.classList.remove("active");
+}
+
 //Menu animation call
 burger__menu.addEventListener("click", showMenu);
+//Menu indicator call
+nav__menu__links.forEach((item) => {
+  item.addEventListener("mouseenter", showIndicator);
+  item.addEventListener("mouseleave", hideIndicator);
+});
