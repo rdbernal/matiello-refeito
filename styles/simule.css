@@ -13,6 +13,8 @@
   background-blend-mode: overlay;
 }
 .simule__container__one form {
+  max-width: 975px;
+  margin: 0 auto;
   padding: 42px 32px 22px 32px;
   background: #e1e1e1;
   border-radius: 31px;
@@ -37,7 +39,8 @@
 }
 .simule__container__one form label {
   width: 100%;
-  margin-bottom: 20px;
+  max-width: 660px;
+  margin: 0 auto 20px auto;
 }
 .simule__container__one form input {
   width: 100%;
@@ -64,7 +67,20 @@
 }
 @media screen and (min-width: 767px) {
   .simule__container__one {
-    padding-top: 380px;
+    padding: 380px 37px 93px 37px;
+  }
+  .simule__container__one form {
+    padding: 73px 32px 54px 32px;
+  }
+  .simule__container__one form h1 {
+    margin-bottom: 16px;
+  }
+  .simule__container__one form p {
+    max-width: 691px;
+    margin-bottom: 61px;
+  }
+  #simule__form__button {
+    margin-top: 47px;
   }
 }
 @media screen and (min-width: 1104px) {
