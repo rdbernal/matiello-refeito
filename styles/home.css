@@ -167,6 +167,8 @@
   margin-bottom: 29px;
 }
 .home__container__five__group {
+  /* max-width: 302px; */
+
   padding: 24px 45px 19px 45px;
   background: #f5f5f5;
   border-radius: 60px;
@@ -203,6 +205,7 @@
   margin-bottom: 45px;
 }
 .home__container__six__blog__post {
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -357,6 +360,38 @@
     font-size: 30px;
     margin-bottom: 48px;
   }
+  .home__container__five {
+    padding: 82px 42px 87.37px 42px;
+  }
+  .home__container__five h2 {
+    max-width: 805px;
+    font-size: 30px;
+    margin-bottom: 48px;
+  }
+  .home__container__six {
+    padding: 0 29px 66px 29px;
+  }
+  .home__container__six h2 {
+    font-size: 30px;
+    margin-bottom: 76px;
+  }
+  .home__container__six__blog__post h3 {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .home__container__six__blog__post p {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .home__container__six__blog__post a {
+    display: flex;
+    align-items: flex-end;
+  }
+  .home__container__six__blog__post a:after {
+    content: url("/images/desktop/home/right-arrow.png");
+    margin-left: 5px;
+    transform: translateY(1px);
+  }
 }
 @media screen and (min-width: 1100px) {
   .home__container__three__group {
@@ -380,6 +415,16 @@
   .home__container__three__content a {
     padding: 13px 54px 10px 54px;
   }
+  .home__container__six div {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .home__container__six__blog__post {
+    max-width: 356px;
+    margin: 0 19.5px 64px 19.5px;
+  }
 }
 @media screen and (min-width: 1227px) {
   .home__services__one {
@@ -391,8 +436,6 @@
   .home__services__three {
     order: 3;
   }
-}
-@media screen and (min-width: 834px) {
 }
 @media screen and (min-width: 1104px) {
   .home__container__one h1 {
