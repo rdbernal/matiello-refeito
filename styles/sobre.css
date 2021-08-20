@@ -56,12 +56,14 @@
   max-width: 477px;
 }
 .sobre__container__three {
-  margin: 0 42px;
+  margin: 0 34px;
   padding: 39.6px 34px 40px 34px;
   background: #ffd15b;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  align-self: center;
 }
 .sobre__container__three img {
   margin-bottom: 30.6px;
@@ -83,6 +85,8 @@
   margin-bottom: 0;
 }
 .sobre__container__four {
+  max-width: 1078px;
+  margin: 0 auto;
   padding: 65px 42px 0 42px;
   display: flex;
   flex-direction: column;
@@ -139,6 +143,10 @@
   }
   .sobre__container__two {
     padding: 92px 41px 44px 41px;
+    max-width: 1078px;
+    margin: 0 auto;
+  }
+  .sobre__container__three {
     max-width: 1078px;
     margin: 0 auto;
   }
