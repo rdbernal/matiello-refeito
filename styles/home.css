@@ -251,6 +251,7 @@
 }
 .home__container__seven form {
   width: 100%;
+  max-width: 975px;
   padding: 42px 32px 45px 32px;
   display: flex;
   flex-direction: column;
@@ -267,7 +268,8 @@
   margin-bottom: 20px;
 }
 .home__container__seven form p {
-  max-width: 241px;
+  /* max-width: 241px; */
+  max-width: 80%;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.05em;
