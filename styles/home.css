@@ -195,7 +195,7 @@
   margin-left: 28px;
 }
 .home__container__four__group:last-child {
-  margin-right: 28px;
+  margin-right: 28px !important;
 }
 .container__four__article__one,
 .container__four__article__two,
