@@ -155,9 +155,17 @@
   padding: 13px 22px 10px 22px;
   background: #ffd15b;
 }
-/*Container four*/
 
-@media screen and (min-width: 767px) {
+/*LIXO - Container four*/
+/* @media screen and (max-width: 767px) {
+  .home__container__four {
+    background: lightgreen;
+  }
+} */
+
+/*Marcador de min width antigo - 767px*/
+
+@media screen and (min-width: 0px) {
   .home__container__four {
     padding: 79px 28px 0 28px;
     max-width: 1094px;
@@ -173,6 +181,7 @@
   }
   .container__four__slider {
     width: 100%;
+    /* min-width: 958px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
