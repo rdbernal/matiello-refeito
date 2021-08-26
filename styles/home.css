@@ -178,7 +178,7 @@
 .container__four__slider {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   overflow: scroll;
 }
 .home__container__four__group {
