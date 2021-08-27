@@ -65,6 +65,36 @@
   margin-top: 27px;
   cursor: pointer;
 }
+.simule__input__name {
+  position: relative;
+}
+.simule__input__name::after {
+  content: url("/images/mobile/home/user-img.png");
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-43%);
+}
+.simule__input__mail {
+  position: relative;
+}
+.simule__input__mail::after {
+  content: url("/images/mobile/home/mail-img.png");
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-43%);
+}
+.simule__input__phone {
+  position: relative;
+}
+.simule__input__phone::after {
+  content: url("/images/mobile/home/phone-img.png");
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-43%);
+}
 @media screen and (min-width: 767px) {
   .simule__container__one {
     padding: 380px 37px 93px 37px;

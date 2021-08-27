@@ -179,6 +179,8 @@
   width: 100%;
   display: flex;
   overflow: auto;
+
+  /* overflow-x: hidden; */
 }
 .home__container__four__group {
   min-width: 310px;
@@ -588,6 +590,37 @@
   height: 41px;
   border: none;
   padding-left: 40px;
+}
+.home__input__name {
+  position: relative;
+  height: 100px;
+}
+.home__input__name::after {
+  content: url("/images/mobile/home/user-img.png");
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-43%);
+}
+.home__input__mail {
+  position: relative;
+}
+.home__input__mail::after {
+  content: url("/images/mobile/home/mail-img.png");
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-42%);
+}
+.home__input__phone {
+  position: relative;
+}
+.home__input__phone::after {
+  content: url("/images/mobile/home/phone-img.png");
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-42%);
 }
 #form__button {
   max-width: 184px;
