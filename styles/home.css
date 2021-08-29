@@ -655,9 +655,11 @@ label[for="userService"]::after {
 }
 .home__container__seven form div {
   width: 184px;
+  height: 41px;
+  background: #ffd15b;
+  border-radius: 40px;
 }
 #button__form__id {
-  background: #ffd15b;
   padding: 0;
   font-size: 16px;
   font-weight: 700;
@@ -665,6 +667,7 @@ label[for="userService"]::after {
   letter-spacing: 0.1em;
   color: black;
   cursor: pointer;
+  background: transparent;
 }
 /* .home__container__seven form label {
   width: 100%;
