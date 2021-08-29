@@ -37,63 +37,105 @@
   line-height: 20px;
   margin-bottom: 36px;
 }
-.simule__container__one form label {
-  width: 100%;
-  max-width: 660px;
-  margin: 0 auto 20px auto;
-}
 .simule__container__one form input {
   width: 100%;
-  padding: 15px 16px 13px 40px;
-  font-size: 12px;
-  line-height: 13px;
-  color: #8e8e8e;
+  max-width: 660px;
+  height: 41px;
+  margin-bottom: 20px;
   border-radius: 20px;
   border: none;
   outline: none;
+  padding-left: 40px;
+  color: #8e8e8e;
+  font-size: 12px;
 }
-#simule__form__button {
-  width: auto;
-  padding: 15px 67px 13px 67px;
-  background: #ffd15b;
-  border-radius: 40px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 18px;
-  letter-spacing: 0.1em;
-  color: #000000;
-  margin-top: 27px;
-  cursor: pointer;
-}
-.simule__input__name {
+label {
+  width: 100%;
+  max-width: 660px;
   position: relative;
 }
-.simule__input__name::after {
+label[for="userName"]::after {
   content: url("/images/mobile/home/user-img.png");
   position: absolute;
-  top: 50%;
   left: 10px;
-  transform: translateY(-43%);
+  top: 10px;
 }
-.simule__input__mail {
-  position: relative;
-}
-.simule__input__mail::after {
+label[for="userMail"]::after {
   content: url("/images/mobile/home/mail-img.png");
   position: absolute;
   top: 50%;
   left: 10px;
-  transform: translateY(-43%);
+  top: 12px;
 }
-.simule__input__phone {
-  position: relative;
-}
-.simule__input__phone::after {
+label[for="userPhone"]::after {
   content: url("/images/mobile/home/phone-img.png");
   position: absolute;
   top: 50%;
   left: 10px;
-  transform: translateY(-43%);
+  top: 10px;
+}
+.simule__container__one input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  padding-left: 20px;
+}
+.simule__container__one form select {
+  width: 100%;
+  max-width: 660px;
+  height: 41px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 12px;
+  color: #8e8e8e;
+  background: white;
+}
+label[for="userService"]::after {
+  content: url("/images/mobile/home/down-arrow.png");
+  width: 12px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.simule__container__one form select::-ms-expand {
+  display: none;
+}
+.simule__container__one form textarea {
+  width: 100%;
+  max-width: 660px;
+  height: 155px;
+  resize: none;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #8e8e8e;
+  font-size: 12px;
+  margin-bottom: 44px;
+}
+.simule__container__one form div {
+  width: 184px;
+  height: 41px;
+  background: #ffd15b;
+  border-radius: 40px;
+  padding-top: 2px;
+}
+#button__form__id {
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: black;
+  cursor: pointer;
+  background: transparent;
 }
 @media screen and (min-width: 767px) {
   .simule__container__one {
@@ -111,6 +153,21 @@
   }
   #simule__form__button {
     margin-top: 47px;
+  }
+  .simule__container__one form input {
+    font-size: 14px;
+  }
+  .simule__container__one form select {
+    font-size: 14px;
+  }
+  .simule__container__one form textarea {
+    font-size: 14px;
+  }
+  .simule__container__one div {
+    width: 219px;
+  }
+  #button__form__id {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 1104px) {
