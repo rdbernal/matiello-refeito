@@ -578,7 +578,95 @@
   text-align: center;
   margin-bottom: 36px;
 }
-.home__container__seven form label {
+.home__container__seven form input {
+  width: 100%;
+  height: 41px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+label {
+  width: 100%;
+  position: relative;
+}
+label[for="userName"]::after {
+  content: url("/images/mobile/home/user-img.png");
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+label[for="userMail"]::after {
+  content: url("/images/mobile/home/mail-img.png");
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  top: 12px;
+}
+label[for="userPhone"]::after {
+  content: url("/images/mobile/home/phone-img.png");
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  top: 10px;
+}
+.home__container__seven form select::-ms-expand {
+  display: none;
+}
+.home__container__seven form select {
+  width: 100%;
+  height: 41px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 12px;
+  color: #8e8e8e;
+  background: white;
+}
+label[for="userService"]::after {
+  content: url("/images/mobile/home/down-arrow.png");
+  width: 12px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.home__container__seven form textarea {
+  width: 100%;
+  height: 155px;
+  resize: none;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #8e8e8e;
+  font-size: 12px;
+  margin-bottom: 44px;
+}
+.home__container__seven form div {
+  width: 184px;
+}
+#button__form__id {
+  background: #ffd15b;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: black;
+  cursor: pointer;
+}
+/* .home__container__seven form label {
   width: 100%;
   height: 41px;
   margin-bottom: 20px;
@@ -635,7 +723,8 @@
   background: #ffd15b;
   margin-top: 8px;
   cursor: pointer;
-}
+} */
+
 @media screen and (min-width: 767px) {
   .home__container__one {
     background: url("/images/desktop/home/container-one-bg.png"),

@@ -288,7 +288,7 @@
       </section>
 
       <section class="home__container__seven">
-        <form action="#">
+        <!-- <form action="#">
           <h3>SIMULAÇÃO GRATUITA</h3>
           <p>Deixe seus dados para realizarmos uma SIMULAÇÃO pra você!</p>
           <label class="home__input__name" for="name">
@@ -304,6 +304,76 @@
             <input type="text" placeholder="Serviço de interesse" />
           </label>
           <input id="form__button" type="submit" value="ENVIAR" />
+        </form> -->
+
+        <form action="#">
+          <h3>SIMULAÇÃO GRATUITA</h3>
+          <p>Deixe seus dados para realizarmos uma SIMULAÇÃO pra você!</p>
+          <label for="userName"></label>
+          <input
+            id="userName"
+            type="text"
+            name="name"
+            placeholder="Nome completo"
+            required
+            class="home__input__name"
+            ;
+          />
+          <label for="userMail"></label>
+          <input
+            id="userMail"
+            type="email"
+            name="email"
+            placeholder="Seu melhor e-mail"
+            required
+            class="home__input__mail"
+            ;
+          />
+          <label for="userPhone"></label>
+          <input
+            id="userPhone"
+            type="tel"
+            name="telephone"
+            placeholder="Celular com DDD"
+            required
+            class="home__input__phone"
+          />
+          <label for="userService"></label>
+          <select name="services" id="userService" required>
+            <option value="" selected disabled hidden>
+              Serviço de Interesse
+            </option>
+            <option value="Acordos bancários">Acordos bancários</option>
+            <option value="Análise contratual">Análise contratual</option>
+            <option value="Análise de crédito imobiliário">
+              Análise de crédito imobiliário
+            </option>
+            <option value="Cartão de crédito">Cartão de crédito</option>
+            <option value="Cheque especial">Cheque especial</option>
+            <option value="Contrato de compra e venda">
+              Contrato de compra e venda
+            </option>
+            <option value="Dívidas de condomínio">Dívidas de condomínio</option>
+            <option value="Empréstimo pessoal">Empréstimo pessoal</option>
+            <option value="Financiamento de veículos">
+              Financiamento de veículos
+            </option>
+            <option value="Recuperação de bens">Recuperação de bens</option>
+            <option value="Redução de taxa de juros aplicada">
+              Redução de taxa de juros aplicada
+            </option>
+          </select>
+          <label for="userMessage"></label>
+          <textarea
+            name="message"
+            id="userMessage"
+            cols="30"
+            rows="10"
+            placeholder="Escreva sua mensagem"
+          ></textarea>
+          <div>
+            <input id="button__form__id" type="submit" value="ENVIAR" />
+          </div>
         </form>
       </section>
     </main>
